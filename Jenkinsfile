@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  
+  tools {maven "Maven_home"}
   stages {
   
     stage('Install dependencies') {
